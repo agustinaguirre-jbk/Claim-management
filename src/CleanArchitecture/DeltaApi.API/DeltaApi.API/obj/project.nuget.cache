@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fjpiFdzmAlzNLq8gDuBljTICF1RWnOe63ABilZULIG4+okxnU47WbI0NgInB+vFR2rzqjkuiZzCqzch9bqlW1w==",
+  "dgSpecHash": "pJEr93Y2gtQ0C/biZnFfbZYYUd4ASNxGJjUp6by/cR6cGeviUuE2O2xU/7az6fp9sULrGcfSRm3t8oi6BgQj3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
+  "projectFilePath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AgustinAguirre\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
     "C:\\Users\\AgustinAguirre\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",

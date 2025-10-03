@@ -140,34 +140,6 @@ public class ClaimsController : ControllerBase
         }
     }
 
-    /// <summary>
-    /// Obtiene todas las reclamaciones de un claimant
-    /// </summary>
-    /// <param name="claimantId">ID del claimant</param>
-    /// <param name="cancellationToken">Token de cancelación</param>
-    /// <returns>Lista de reclamaciones del claimant</returns>
-    [HttpGet("claimant/{claimantId}")]
-    [ProducesResponseType(typeof(IEnumerable<ClaimResponse>), StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-    public async Task<ActionResult<IEnumerable<ClaimResponse>>> GetClaimsByClaimantId(
-        int claimantId,
-        CancellationToken cancellationToken = default)
-    {
-        try
-        {
-            _logger.LogInformation("Obteniendo reclamaciones para claimant {ClaimantId}", claimantId);
-            
-            var result = await _claimService.GetClaimsByClaimantIdAsync(claimantId, cancellationToken);
-            
-            _logger.LogInformation("Se encontraron {Count} reclamaciones para claimant {ClaimantId}", result.Count(), claimantId);
-            return Ok(result);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Error inesperado al obtener reclamaciones para claimant {ClaimantId}", claimantId);
-            return StatusCode(500, new { error = "Error interno del servidor" });
-        }
-    }
 
     /// <summary>
     /// Agrega un documento a una reclamación

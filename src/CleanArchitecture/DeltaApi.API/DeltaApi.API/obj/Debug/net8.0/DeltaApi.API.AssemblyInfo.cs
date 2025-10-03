@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DeltaApi.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+88f32d4511684652ce84a0fa40038627786e80f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DeltaApi.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DeltaApi.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

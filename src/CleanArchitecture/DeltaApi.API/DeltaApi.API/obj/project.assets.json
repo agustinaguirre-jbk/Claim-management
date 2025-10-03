@@ -2036,11 +2036,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
+      "projectUniqueName": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
       "projectName": "DeltaApi.API",
-      "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
+      "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\DeltaApi.API.csproj",
       "packagesPath": "C:\\Users\\AgustinAguirre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\obj\\",
+      "outputPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.API\\DeltaApi.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2061,11 +2061,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.Application\\DeltaApi.Application.csproj": {
-              "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.Application\\DeltaApi.Application.csproj"
+            "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.Application\\DeltaApi.Application.csproj": {
+              "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.Application\\DeltaApi.Application.csproj"
             },
-            "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.Infrastructure\\DeltaApi.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.Infrastructure\\DeltaApi.Infrastructure.csproj"
+            "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.Infrastructure\\DeltaApi.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Claim\\src\\CleanArchitecture\\DeltaApi.Infrastructure\\DeltaApi.Infrastructure.csproj"
             }
           }
         }
