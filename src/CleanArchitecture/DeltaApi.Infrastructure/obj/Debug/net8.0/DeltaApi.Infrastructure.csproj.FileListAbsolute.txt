@@ -1,0 +1,15 @@
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\bin\Debug\net8.0\DeltaApi.Infrastructure.deps.json
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\bin\Debug\net8.0\DeltaApi.Infrastructure.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\bin\Debug\net8.0\DeltaApi.Infrastructure.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\bin\Debug\net8.0\DeltaApi.Domain.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\bin\Debug\net8.0\DeltaApi.Domain.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.AssemblyInfo.cs
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.csproj.CopyComplete
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\refint\DeltaApi.Infrastructure.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\DeltaApi.Infrastructure.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\obj\Debug\net8.0\ref\DeltaApi.Infrastructure.dll

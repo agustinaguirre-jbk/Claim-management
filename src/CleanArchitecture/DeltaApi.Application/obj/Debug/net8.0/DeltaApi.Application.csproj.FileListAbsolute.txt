@@ -1,0 +1,15 @@
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\bin\Debug\net8.0\DeltaApi.Application.deps.json
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\bin\Debug\net8.0\DeltaApi.Application.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\bin\Debug\net8.0\DeltaApi.Application.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\bin\Debug\net8.0\DeltaApi.Domain.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\bin\Debug\net8.0\DeltaApi.Domain.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.csproj.AssemblyReference.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.AssemblyInfoInputs.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.AssemblyInfo.cs
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.csproj.CopyComplete
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\refint\DeltaApi.Application.dll
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\DeltaApi.Application.pdb
+C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\obj\Debug\net8.0\ref\DeltaApi.Application.dll

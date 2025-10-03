@@ -1,0 +1,60 @@
+2025-10-02 16:18:40.537 -03:00 [INF] Now listening on: http://localhost:5128
+2025-10-02 16:18:40.591 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 16:18:40.595 -03:00 [INF] Hosting environment: Development
+2025-10-02 16:18:40.598 -03:00 [INF] Content root path: C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API
+2025-10-02 16:18:45.284 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2025-10-02 16:18:45.528 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 247.9779ms
+2025-10-02 16:18:45.690 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2025-10-02 16:18:45.825 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 134.5445ms
+2025-10-02 16:19:00.817 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - null null
+2025-10-02 16:19:00.829 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 16:19:00.864 -03:00 [INF] Executing endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:19:00.907 -03:00 [INF] Route matched with {action = "GetClaimById", controller = "Claims"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DeltaApi.Application.DTOs.Claims.ClaimResponse]] GetClaimById(System.Guid, System.Threading.CancellationToken) on controller DeltaApi.API.Controllers.ClaimsController (DeltaApi.API).
+2025-10-02 16:19:01.012 -03:00 [INF] Obteniendo reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b"
+2025-10-02 16:19:01.172 -03:00 [ERR] Error inesperado al obtener reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b"
+Npgsql.NpgsqlException (0x80004005): No password has been provided but the backend requires one (in SASL/SCRAM-SHA-256)
+   at Npgsql.Internal.NpgsqlConnector.AuthenticateSASL(List`1 mechanisms, String username, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.Authenticate(String username, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.Internal.NpgsqlConnector.<Open>g__OpenCore|213_1(NpgsqlConnector conn, SslMode sslMode, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken, Boolean isFirstAttempt)
+   at Npgsql.Internal.NpgsqlConnector.Open(NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.OpenNewConnector(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.PoolingDataSource.<Get>g__RentAsync|33_0(NpgsqlConnection conn, NpgsqlTimeout timeout, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlConnection.<Open>g__OpenAsync|42_0(Boolean async, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 488
+   at DeltaApi.Infrastructure.Repositories.ClaimRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\Repositories\ClaimRepository.cs:line 30
+   at DeltaApi.Application.UseCases.Claims.GetClaimByIdUseCase.ExecuteAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\UseCases\Claims\GetClaimByIdUseCase.cs:line 18
+   at DeltaApi.Application.Services.ClaimApplicationService.GetClaimByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\Services\ClaimApplicationService.cs:line 60
+   at DeltaApi.API.Controllers.ClaimsController.GetClaimById(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API\Controllers\ClaimsController.cs:line 81
+2025-10-02 16:19:01.218 -03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-02 16:19:01.256 -03:00 [INF] Executed action DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API) in 338.8082ms
+2025-10-02 16:19:01.260 -03:00 [INF] Executed endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:19:01.264 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - 500 null application/json; charset=utf-8 446.9939ms
+2025-10-02 16:22:02.227 -03:00 [INF] Application is shutting down...
+2025-10-02 16:22:10.442 -03:00 [INF] Now listening on: http://localhost:5128
+2025-10-02 16:22:10.542 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 16:22:10.547 -03:00 [INF] Hosting environment: Development
+2025-10-02 16:22:10.549 -03:00 [INF] Content root path: C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API
+2025-10-02 16:22:13.059 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2025-10-02 16:22:13.328 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 274.1688ms
+2025-10-02 16:22:13.481 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2025-10-02 16:22:13.762 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 279.3942ms
+2025-10-02 16:22:24.455 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - null null
+2025-10-02 16:22:24.472 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 16:22:24.521 -03:00 [INF] Executing endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:22:24.576 -03:00 [INF] Route matched with {action = "GetClaimById", controller = "Claims"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DeltaApi.Application.DTOs.Claims.ClaimResponse]] GetClaimById(System.Guid, System.Threading.CancellationToken) on controller DeltaApi.API.Controllers.ClaimsController (DeltaApi.API).
+2025-10-02 16:22:24.686 -03:00 [INF] Obteniendo reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b"
+2025-10-02 16:22:25.283 -03:00 [INF] Reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b" obtenida exitosamente
+2025-10-02 16:22:25.293 -03:00 [INF] Executing OkObjectResult, writing value of type 'DeltaApi.Application.DTOs.Claims.ClaimResponse'.
+2025-10-02 16:22:25.375 -03:00 [INF] Executed action DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API) in 789.5281ms
+2025-10-02 16:22:25.379 -03:00 [INF] Executed endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:22:25.384 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - 200 null application/json; charset=utf-8 928.2693ms
+2025-10-02 16:24:29.661 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - null null
+2025-10-02 16:24:29.670 -03:00 [INF] Executing endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:24:29.673 -03:00 [INF] Route matched with {action = "GetClaimById", controller = "Claims"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DeltaApi.Application.DTOs.Claims.ClaimResponse]] GetClaimById(System.Guid, System.Threading.CancellationToken) on controller DeltaApi.API.Controllers.ClaimsController (DeltaApi.API).
+2025-10-02 16:24:29.689 -03:00 [INF] Obteniendo reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b"
+2025-10-02 16:24:29.696 -03:00 [INF] Reclamación con ID "09aae6fa-e4c6-4f21-b17f-9bf9792b323b" obtenida exitosamente
+2025-10-02 16:24:29.701 -03:00 [INF] Executing OkObjectResult, writing value of type 'DeltaApi.Application.DTOs.Claims.ClaimResponse'.
+2025-10-02 16:24:29.706 -03:00 [INF] Executed action DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API) in 28.5732ms
+2025-10-02 16:24:29.714 -03:00 [INF] Executed endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 16:24:29.724 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Claims/09aae6fa-e4c6-4f21-b17f-9bf9792b323b - 200 null application/json; charset=utf-8 62.4481ms
+2025-10-02 16:24:34.315 -03:00 [INF] Application is shutting down...

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "nBUlsXaxJzq0UnPbjI62k3wGhI6WvcWUpAozz/wq597ycaHFOv900IODrtQmkAT/vVEpJpqtcbT2m9FUUu6p+g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\AgustinAguirre\\Desktop\\Delta\\Clean arc\\src\\CleanArchitecture\\DeltaApi.Infrastructure\\DeltaApi.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\dapper\\2.1.15\\dapper.2.1.15.nupkg.sha512",
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\AgustinAguirre\\.nuget\\packages\\npgsql\\8.0.4\\npgsql.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

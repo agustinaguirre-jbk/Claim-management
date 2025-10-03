@@ -1,0 +1,85 @@
+2025-10-02 15:19:07.628 -03:00 [INF] Now listening on: http://localhost:5128
+2025-10-02 15:19:07.787 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 15:19:07.790 -03:00 [INF] Hosting environment: Development
+2025-10-02 15:19:07.793 -03:00 [INF] Content root path: C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API
+2025-10-02 15:19:11.288 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2025-10-02 15:19:11.619 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 342.1525ms
+2025-10-02 15:19:11.880 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2025-10-02 15:19:12.421 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 540.0425ms
+2025-10-02 15:19:43.420 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Claims/2f0d412c-7396-4a9a-a106-9c54eb6b79c7 - null null
+2025-10-02 15:19:43.437 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 15:19:43.929 -03:00 [INF] Executing endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 15:19:44.797 -03:00 [INF] Route matched with {action = "GetClaimById", controller = "Claims"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DeltaApi.Application.DTOs.Claims.ClaimResponse]] GetClaimById(System.Guid, System.Threading.CancellationToken) on controller DeltaApi.API.Controllers.ClaimsController (DeltaApi.API).
+2025-10-02 15:19:45.155 -03:00 [INF] Obteniendo reclamación con ID "2f0d412c-7396-4a9a-a106-9c54eb6b79c7"
+2025-10-02 15:19:48.120 -03:00 [ERR] Error inesperado al obtener reclamación con ID "2f0d412c-7396-4a9a-a106-9c54eb6b79c7"
+Npgsql.PostgresException (0x80004005): 42883: operator does not exist: integer = uuid
+
+POSITION: 395
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at DeltaApi.Infrastructure.Repositories.ClaimRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\Repositories\ClaimRepository.cs:line 30
+   at DeltaApi.Application.UseCases.Claims.GetClaimByIdUseCase.ExecuteAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\UseCases\Claims\GetClaimByIdUseCase.cs:line 18
+   at DeltaApi.Application.Services.ClaimApplicationService.GetClaimByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\Services\ClaimApplicationService.cs:line 60
+   at DeltaApi.API.Controllers.ClaimsController.GetClaimById(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API\Controllers\ClaimsController.cs:line 81
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: operator does not exist: integer = uuid
+    Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+    Position: 395
+    File: parse_oper.c
+    Line: 647
+    Routine: op_error
+2025-10-02 15:19:48.200 -03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-02 15:19:48.248 -03:00 [INF] Executed action DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API) in 3437.5307ms
+2025-10-02 15:19:48.255 -03:00 [INF] Executed endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 15:19:48.263 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Claims/2f0d412c-7396-4a9a-a106-9c54eb6b79c7 - 500 null application/json; charset=utf-8 4843.1709ms
+2025-10-02 15:24:12.249 -03:00 [INF] Now listening on: http://localhost:5128
+2025-10-02 15:24:12.882 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-10-02 15:24:13.182 -03:00 [INF] Hosting environment: Development
+2025-10-02 15:24:13.376 -03:00 [INF] Content root path: C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API
+2025-10-02 15:24:17.107 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/index.html - null null
+2025-10-02 15:24:18.891 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/index.html - 200 null text/html;charset=utf-8 1800.2995ms
+2025-10-02 15:24:19.560 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - null null
+2025-10-02 15:24:20.956 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1395.8561ms
+2025-10-02 15:24:42.536 -03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5128/api/Claims/2f0d412c-7396-4a9a-a106-9c54eb6b79c7 - null null
+2025-10-02 15:24:42.608 -03:00 [WRN] Failed to determine the https port for redirect.
+2025-10-02 15:24:42.842 -03:00 [INF] Executing endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 15:24:43.059 -03:00 [INF] Route matched with {action = "GetClaimById", controller = "Claims"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[DeltaApi.Application.DTOs.Claims.ClaimResponse]] GetClaimById(System.Guid, System.Threading.CancellationToken) on controller DeltaApi.API.Controllers.ClaimsController (DeltaApi.API).
+2025-10-02 15:24:43.877 -03:00 [INF] Obteniendo reclamación con ID "2f0d412c-7396-4a9a-a106-9c54eb6b79c7"
+2025-10-02 15:24:47.517 -03:00 [ERR] Error inesperado al obtener reclamación con ID "2f0d412c-7396-4a9a-a106-9c54eb6b79c7"
+Npgsql.PostgresException (0x80004005): 42883: operator does not exist: integer = uuid
+
+POSITION: 388
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryRowAsync[T](IDbConnection cnn, Row row, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 489
+   at DeltaApi.Infrastructure.Repositories.ClaimRepository.GetByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Infrastructure\Repositories\ClaimRepository.cs:line 30
+   at DeltaApi.Application.UseCases.Claims.GetClaimByIdUseCase.ExecuteAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\UseCases\Claims\GetClaimByIdUseCase.cs:line 18
+   at DeltaApi.Application.Services.ClaimApplicationService.GetClaimByIdAsync(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.Application\Services\ClaimApplicationService.cs:line 60
+   at DeltaApi.API.Controllers.ClaimsController.GetClaimById(Guid id, CancellationToken cancellationToken) in C:\Users\AgustinAguirre\Desktop\Delta\Clean arc\src\CleanArchitecture\DeltaApi.API\DeltaApi.API\Controllers\ClaimsController.cs:line 81
+  Exception data:
+    Severity: ERROR
+    SqlState: 42883
+    MessageText: operator does not exist: integer = uuid
+    Hint: No operator matches the given name and argument types. You might need to add explicit type casts.
+    Position: 388
+    File: parse_oper.c
+    Line: 647
+    Routine: op_error
+2025-10-02 15:24:48.253 -03:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType2`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-10-02 15:24:48.653 -03:00 [INF] Executed action DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API) in 5335.8537ms
+2025-10-02 15:24:48.970 -03:00 [INF] Executed endpoint 'DeltaApi.API.Controllers.ClaimsController.GetClaimById (DeltaApi.API)'
+2025-10-02 15:24:49.167 -03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5128/api/Claims/2f0d412c-7396-4a9a-a106-9c54eb6b79c7 - 500 null application/json; charset=utf-8 6631.08ms
+2025-10-02 15:46:20.040 -03:00 [INF] Application is shutting down...
